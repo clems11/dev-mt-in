@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app='devChallenge'>
 
 <head>
 	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>DevMtin</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  
+	<header></header>
+
+	<ui-view></ui-view>
+
+	<footer></footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js" charset="utf-8"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js" charset="utf-8"></script>
+	<script src="app.js" charset="utf-8"></script>
+	<script src="./header/header-dir.js" charset="utf-8"></script>
+	<script src="./footer/footer-dir.js" charset="utf-8"></script>
+	<script src="service.js" charset="utf-8"></script>
 </body>
+
 </html>
